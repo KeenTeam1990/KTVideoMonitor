@@ -76,14 +76,14 @@ NSString *testUrl = @"http://dlhls.cdn.zhanqi.tv/zqlive/49427_jmACJ.m3u8";
 # 监控首页
 
 
-![image](https://github.com/KeenTeam1990/KTVideoMonitor/blob/master/introductionimages/IMG_0398.png)
+![image](https://github.com/KeenTeam1990/KTVideoMonitor/blob/master/introductionimages/IMG_0398.PNG)
 
 
 
 # 横屏界面
 
 
-![image](https://github.com/KeenTeam1990/KTVideoMonitor/blob/master/introductionimages/IMG_0399.png)
+![image](https://github.com/KeenTeam1990/KTVideoMonitor/blob/master/introductionimages/IMG_0399.PNG)
 
 
 
@@ -91,7 +91,7 @@ NSString *testUrl = @"http://dlhls.cdn.zhanqi.tv/zqlive/49427_jmACJ.m3u8";
 # 竖屏界面
 
 
-![image](https://github.com/KeenTeam1990/KTVideoMonitor/blob/master/introductionimages/IMG_0397.png)
+![image](https://github.com/KeenTeam1990/KTVideoMonitor/blob/master/introductionimages/IMG_0397.PNG)
 
 
 
