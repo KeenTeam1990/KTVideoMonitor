@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		457A1FF12090190300EF623C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A1FF02090190300EF623C /* AppDelegate.m */; };
+		457A1FF42090190300EF623C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A1FF32090190300EF623C /* ViewController.m */; };
+		457A1FF72090190300EF623C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457A1FF52090190300EF623C /* Main.storyboard */; };
+		457A1FF92090190300EF623C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457A1FF82090190300EF623C /* Assets.xcassets */; };
+		457A1FFC2090190300EF623C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457A1FFA2090190300EF623C /* LaunchScreen.storyboard */; };
+		457A1FFF2090190300EF623C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A1FFE2090190300EF623C /* main.m */; };
+		457A20092090190300EF623C /* KTVideoMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A20082090190300EF623C /* KTVideoMonitorTests.m */; };
+		457A20142090190300EF623C /* KTVideoMonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A20132090190300EF623C /* KTVideoMonitorUITests.m */; };
+		457A2024209019AB00EF623C /* YXHomeAdvertisementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A2023209019AB00EF623C /* YXHomeAdvertisementModel.m */; };
+		457A2028209019E800EF623C /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A2027209019E800EF623C /* VideoDetailViewController.m */; };
+		457A202C20901A2300EF623C /* TKHomeNew_serviceViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A202B20901A2300EF623C /* TKHomeNew_serviceViewCell.m */; };
+		457A204220901C2B00EF623C /* icon_backHidden@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 457A203320901C2B00EF623C /* icon_backHidden@3x.png */; };
+		457A204320901C2B00EF623C /* icon_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 457A203420901C2B00EF623C /* icon_pause@2x.png */; };
+		457A204420901C2B00EF623C /* icon_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 457A203520901C2B00EF623C /* icon_pause@3x.png */; };
+		457A204520901C2B00EF623C /* icon_backHidden@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 457A203620901C2B00EF623C /* icon_backHidden@2x.png */; };
+		457A204620901C2B00EF623C /* icon_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 457A203720901C2B00EF623C /* icon_play@2x.png */; };
+		457A204720901C2B00EF623C /* icon_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 457A203820901C2B00EF623C /* icon_play@3x.png */; };
+		457A204820901C2B00EF623C /* icon_progress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 457A203920901C2B00EF623C /* icon_progress@3x.png */; };
+		457A204920901C2B00EF623C /* icon_progress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 457A203A20901C2B00EF623C /* icon_progress@2x.png */; };
+		457A204A20901C2B00EF623C /* UIView+YWExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A203B20901C2B00EF623C /* UIView+YWExtend.m */; };
+		457A204B20901C2B00EF623C /* YWReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A203D20901C2B00EF623C /* YWReachability.m */; };
+		457A204C20901C2B00EF623C /* YWMediaControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A203E20901C2B00EF623C /* YWMediaControl.m */; };
+		457A204D20901C2B00EF623C /* YWMediaPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A204020901C2B00EF623C /* YWMediaPlayerView.m */; };
+		457A204E20901C2B00EF623C /* YWMediaGesturesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A204120901C2B00EF623C /* YWMediaGesturesView.m */; };
+		457A205020901C7A00EF623C /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457A204F20901C7A00EF623C /* IJKMediaFramework.framework */; };
+		457A205220901D4E00EF623C /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 457A205120901D4E00EF623C /* libbz2.tbd */; };
+		457A205420901D5B00EF623C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 457A205320901D5B00EF623C /* libc++.tbd */; };
+		457A205620901D6600EF623C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 457A205520901D6600EF623C /* libz.tbd */; };
+		457A205820901D8300EF623C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457A205720901D8300EF623C /* Foundation.framework */; };
+		457A205A20901D9500EF623C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457A205920901D9500EF623C /* ImageIO.framework */; };
+		457A205D20901F6F00EF623C /* HHControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 457A205C20901F6F00EF623C /* HHControl.m */; };
+		C886114B79A1E79C7F44588C /* libPods-KTVideoMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7A7CF91BDD098B9D20C87E /* libPods-KTVideoMonitor.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		457A20052090190300EF623C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457A1FE42090190300EF623C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457A1FEB2090190300EF623C;
+			remoteInfo = KTVideoMonitor;
+		};
+		457A20102090190300EF623C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457A1FE42090190300EF623C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457A1FEB2090190300EF623C;
+			remoteInfo = KTVideoMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		457A1FEC2090190300EF623C /* KTVideoMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTVideoMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		457A1FEF2090190300EF623C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		457A1FF02090190300EF623C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		457A1FF22090190300EF623C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		457A1FF32090190300EF623C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		457A1FF62090190300EF623C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		457A1FF82090190300EF623C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		457A1FFB2090190300EF623C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		457A1FFD2090190300EF623C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457A1FFE2090190300EF623C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		457A20042090190300EF623C /* KTVideoMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTVideoMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		457A20082090190300EF623C /* KTVideoMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTVideoMonitorTests.m; sourceTree = "<group>"; };
+		457A200A2090190300EF623C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457A200F2090190300EF623C /* KTVideoMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTVideoMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		457A20132090190300EF623C /* KTVideoMonitorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTVideoMonitorUITests.m; sourceTree = "<group>"; };
+		457A20152090190300EF623C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457A2022209019AB00EF623C /* YXHomeAdvertisementModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXHomeAdvertisementModel.h; sourceTree = "<group>"; };
+		457A2023209019AB00EF623C /* YXHomeAdvertisementModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXHomeAdvertisementModel.m; sourceTree = "<group>"; };
+		457A2026209019E800EF623C /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
+		457A2027209019E800EF623C /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
+		457A202A20901A2300EF623C /* TKHomeNew_serviceViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKHomeNew_serviceViewCell.h; sourceTree = "<group>"; };
+		457A202B20901A2300EF623C /* TKHomeNew_serviceViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKHomeNew_serviceViewCell.m; sourceTree = "<group>"; };
+		457A202F20901C2B00EF623C /* YWReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWReachability.h; sourceTree = "<group>"; };
+		457A203020901C2B00EF623C /* YWMediaControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMediaControl.h; sourceTree = "<group>"; };
+		457A203120901C2B00EF623C /* YWMediaPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMediaPlayerView.h; sourceTree = "<group>"; };
+		457A203320901C2B00EF623C /* icon_backHidden@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_backHidden@3x.png"; sourceTree = "<group>"; };
+		457A203420901C2B00EF623C /* icon_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pause@2x.png"; sourceTree = "<group>"; };
+		457A203520901C2B00EF623C /* icon_pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pause@3x.png"; sourceTree = "<group>"; };
+		457A203620901C2B00EF623C /* icon_backHidden@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_backHidden@2x.png"; sourceTree = "<group>"; };
+		457A203720901C2B00EF623C /* icon_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_play@2x.png"; sourceTree = "<group>"; };
+		457A203820901C2B00EF623C /* icon_play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_play@3x.png"; sourceTree = "<group>"; };
+		457A203920901C2B00EF623C /* icon_progress@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_progress@3x.png"; sourceTree = "<group>"; };
+		457A203A20901C2B00EF623C /* icon_progress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_progress@2x.png"; sourceTree = "<group>"; };
+		457A203B20901C2B00EF623C /* UIView+YWExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YWExtend.m"; sourceTree = "<group>"; };
+		457A203C20901C2B00EF623C /* YWMediaGesturesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMediaGesturesView.h; sourceTree = "<group>"; };
+		457A203D20901C2B00EF623C /* YWReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWReachability.m; sourceTree = "<group>"; };
+		457A203E20901C2B00EF623C /* YWMediaControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMediaControl.m; sourceTree = "<group>"; };
+		457A203F20901C2B00EF623C /* UIView+YWExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YWExtend.h"; sourceTree = "<group>"; };
+		457A204020901C2B00EF623C /* YWMediaPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMediaPlayerView.m; sourceTree = "<group>"; };
+		457A204120901C2B00EF623C /* YWMediaGesturesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMediaGesturesView.m; sourceTree = "<group>"; };
+		457A204F20901C7A00EF623C /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		457A205120901D4E00EF623C /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		457A205320901D5B00EF623C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		457A205520901D6600EF623C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		457A205720901D8300EF623C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		457A205920901D9500EF623C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		457A205B20901F6E00EF623C /* HHControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHControl.h; sourceTree = "<group>"; };
+		457A205C20901F6F00EF623C /* HHControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHControl.m; sourceTree = "<group>"; };
+		5D7A7CF91BDD098B9D20C87E /* libPods-KTVideoMonitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTVideoMonitor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D15170E9181E31FBD1A62A4 /* Pods-KTVideoMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTVideoMonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTVideoMonitor/Pods-KTVideoMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		AD50F134FAC4EA1E401CDA58 /* Pods-KTVideoMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTVideoMonitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTVideoMonitor/Pods-KTVideoMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457A1FE92090190300EF623C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A205A20901D9500EF623C /* ImageIO.framework in Frameworks */,
+				457A205820901D8300EF623C /* Foundation.framework in Frameworks */,
+				457A205620901D6600EF623C /* libz.tbd in Frameworks */,
+				457A205420901D5B00EF623C /* libc++.tbd in Frameworks */,
+				457A205220901D4E00EF623C /* libbz2.tbd in Frameworks */,
+				457A205020901C7A00EF623C /* IJKMediaFramework.framework in Frameworks */,
+				C886114B79A1E79C7F44588C /* libPods-KTVideoMonitor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A20012090190300EF623C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A200C2090190300EF623C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		457A1FE32090190300EF623C = {
+			isa = PBXGroup;
+			children = (
+				457A1FEE2090190300EF623C /* KTVideoMonitor */,
+				457A20072090190300EF623C /* KTVideoMonitorTests */,
+				457A20122090190300EF623C /* KTVideoMonitorUITests */,
+				457A1FED2090190300EF623C /* Products */,
+				C7F4D8CA6471E5C452266512 /* Pods */,
+				C4B238D20F3038C8A62B1232 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		457A1FED2090190300EF623C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				457A1FEC2090190300EF623C /* KTVideoMonitor.app */,
+				457A20042090190300EF623C /* KTVideoMonitorTests.xctest */,
+				457A200F2090190300EF623C /* KTVideoMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		457A1FEE2090190300EF623C /* KTVideoMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				457A204F20901C7A00EF623C /* IJKMediaFramework.framework */,
+				457A202D20901C2B00EF623C /* Lib */,
+				457A202920901A2300EF623C /* View */,
+				457A2025209019E800EF623C /* Controller */,
+				457A2021209019AB00EF623C /* Model */,
+				457A1FEF2090190300EF623C /* AppDelegate.h */,
+				457A1FF02090190300EF623C /* AppDelegate.m */,
+				457A1FF22090190300EF623C /* ViewController.h */,
+				457A1FF32090190300EF623C /* ViewController.m */,
+				457A205B20901F6E00EF623C /* HHControl.h */,
+				457A205C20901F6F00EF623C /* HHControl.m */,
+				457A1FF52090190300EF623C /* Main.storyboard */,
+				457A1FF82090190300EF623C /* Assets.xcassets */,
+				457A1FFA2090190300EF623C /* LaunchScreen.storyboard */,
+				457A1FFD2090190300EF623C /* Info.plist */,
+				457A1FFE2090190300EF623C /* main.m */,
+			);
+			path = KTVideoMonitor;
+			sourceTree = "<group>";
+		};
+		457A20072090190300EF623C /* KTVideoMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				457A20082090190300EF623C /* KTVideoMonitorTests.m */,
+				457A200A2090190300EF623C /* Info.plist */,
+			);
+			path = KTVideoMonitorTests;
+			sourceTree = "<group>";
+		};
+		457A20122090190300EF623C /* KTVideoMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				457A20132090190300EF623C /* KTVideoMonitorUITests.m */,
+				457A20152090190300EF623C /* Info.plist */,
+			);
+			path = KTVideoMonitorUITests;
+			sourceTree = "<group>";
+		};
+		457A2021209019AB00EF623C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				457A2022209019AB00EF623C /* YXHomeAdvertisementModel.h */,
+				457A2023209019AB00EF623C /* YXHomeAdvertisementModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		457A2025209019E800EF623C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				457A2026209019E800EF623C /* VideoDetailViewController.h */,
+				457A2027209019E800EF623C /* VideoDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		457A202920901A2300EF623C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				457A202A20901A2300EF623C /* TKHomeNew_serviceViewCell.h */,
+				457A202B20901A2300EF623C /* TKHomeNew_serviceViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		457A202D20901C2B00EF623C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				457A202E20901C2B00EF623C /* YWVideoPlayer */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		457A202E20901C2B00EF623C /* YWVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				457A202F20901C2B00EF623C /* YWReachability.h */,
+				457A203020901C2B00EF623C /* YWMediaControl.h */,
+				457A203120901C2B00EF623C /* YWMediaPlayerView.h */,
+				457A203220901C2B00EF623C /* Resources */,
+				457A203B20901C2B00EF623C /* UIView+YWExtend.m */,
+				457A203C20901C2B00EF623C /* YWMediaGesturesView.h */,
+				457A203D20901C2B00EF623C /* YWReachability.m */,
+				457A203E20901C2B00EF623C /* YWMediaControl.m */,
+				457A203F20901C2B00EF623C /* UIView+YWExtend.h */,
+				457A204020901C2B00EF623C /* YWMediaPlayerView.m */,
+				457A204120901C2B00EF623C /* YWMediaGesturesView.m */,
+			);
+			path = YWVideoPlayer;
+			sourceTree = "<group>";
+		};
+		457A203220901C2B00EF623C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				457A203320901C2B00EF623C /* icon_backHidden@3x.png */,
+				457A203420901C2B00EF623C /* icon_pause@2x.png */,
+				457A203520901C2B00EF623C /* icon_pause@3x.png */,
+				457A203620901C2B00EF623C /* icon_backHidden@2x.png */,
+				457A203720901C2B00EF623C /* icon_play@2x.png */,
+				457A203820901C2B00EF623C /* icon_play@3x.png */,
+				457A203920901C2B00EF623C /* icon_progress@3x.png */,
+				457A203A20901C2B00EF623C /* icon_progress@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C4B238D20F3038C8A62B1232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				457A205920901D9500EF623C /* ImageIO.framework */,
+				457A205720901D8300EF623C /* Foundation.framework */,
+				457A205520901D6600EF623C /* libz.tbd */,
+				457A205320901D5B00EF623C /* libc++.tbd */,
+				457A205120901D4E00EF623C /* libbz2.tbd */,
+				5D7A7CF91BDD098B9D20C87E /* libPods-KTVideoMonitor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7F4D8CA6471E5C452266512 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD50F134FAC4EA1E401CDA58 /* Pods-KTVideoMonitor.debug.xcconfig */,
+				8D15170E9181E31FBD1A62A4 /* Pods-KTVideoMonitor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		457A1FEB2090190300EF623C /* KTVideoMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457A20182090190300EF623C /* Build configuration list for PBXNativeTarget "KTVideoMonitor" */;
+			buildPhases = (
+				618699B683ECDDC73637BAC8 /* [CP] Check Pods Manifest.lock */,
+				457A1FE82090190300EF623C /* Sources */,
+				457A1FE92090190300EF623C /* Frameworks */,
+				457A1FEA2090190300EF623C /* Resources */,
+				A85C1E6582C01178EF5D31EC /* [CP] Embed Pods Frameworks */,
+				4B662FC9D25EE46E1015566D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTVideoMonitor;
+			productName = KTVideoMonitor;
+			productReference = 457A1FEC2090190300EF623C /* KTVideoMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		457A20032090190300EF623C /* KTVideoMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457A201B2090190300EF623C /* Build configuration list for PBXNativeTarget "KTVideoMonitorTests" */;
+			buildPhases = (
+				457A20002090190300EF623C /* Sources */,
+				457A20012090190300EF623C /* Frameworks */,
+				457A20022090190300EF623C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457A20062090190300EF623C /* PBXTargetDependency */,
+			);
+			name = KTVideoMonitorTests;
+			productName = KTVideoMonitorTests;
+			productReference = 457A20042090190300EF623C /* KTVideoMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		457A200E2090190300EF623C /* KTVideoMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457A201E2090190300EF623C /* Build configuration list for PBXNativeTarget "KTVideoMonitorUITests" */;
+			buildPhases = (
+				457A200B2090190300EF623C /* Sources */,
+				457A200C2090190300EF623C /* Frameworks */,
+				457A200D2090190300EF623C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457A20112090190300EF623C /* PBXTargetDependency */,
+			);
+			name = KTVideoMonitorUITests;
+			productName = KTVideoMonitorUITests;
+			productReference = 457A200F2090190300EF623C /* KTVideoMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		457A1FE42090190300EF623C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = keenteam;
+				TargetAttributes = {
+					457A1FEB2090190300EF623C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					457A20032090190300EF623C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 457A1FEB2090190300EF623C;
+					};
+					457A200E2090190300EF623C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 457A1FEB2090190300EF623C;
+					};
+				};
+			};
+			buildConfigurationList = 457A1FE72090190300EF623C /* Build configuration list for PBXProject "KTVideoMonitor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 457A1FE32090190300EF623C;
+			productRefGroup = 457A1FED2090190300EF623C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				457A1FEB2090190300EF623C /* KTVideoMonitor */,
+				457A20032090190300EF623C /* KTVideoMonitorTests */,
+				457A200E2090190300EF623C /* KTVideoMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		457A1FEA2090190300EF623C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A1FFC2090190300EF623C /* LaunchScreen.storyboard in Resources */,
+				457A204520901C2B00EF623C /* icon_backHidden@2x.png in Resources */,
+				457A204420901C2B00EF623C /* icon_pause@3x.png in Resources */,
+				457A204820901C2B00EF623C /* icon_progress@3x.png in Resources */,
+				457A204620901C2B00EF623C /* icon_play@2x.png in Resources */,
+				457A204220901C2B00EF623C /* icon_backHidden@3x.png in Resources */,
+				457A204920901C2B00EF623C /* icon_progress@2x.png in Resources */,
+				457A204720901C2B00EF623C /* icon_play@3x.png in Resources */,
+				457A1FF92090190300EF623C /* Assets.xcassets in Resources */,
+				457A204320901C2B00EF623C /* icon_pause@2x.png in Resources */,
+				457A1FF72090190300EF623C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A20022090190300EF623C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A200D2090190300EF623C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B662FC9D25EE46E1015566D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KTVideoMonitor/Pods-KTVideoMonitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		618699B683ECDDC73637BAC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTVideoMonitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A85C1E6582C01178EF5D31EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KTVideoMonitor/Pods-KTVideoMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457A1FE82090190300EF623C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A1FF42090190300EF623C /* ViewController.m in Sources */,
+				457A1FFF2090190300EF623C /* main.m in Sources */,
+				457A204A20901C2B00EF623C /* UIView+YWExtend.m in Sources */,
+				457A1FF12090190300EF623C /* AppDelegate.m in Sources */,
+				457A204E20901C2B00EF623C /* YWMediaGesturesView.m in Sources */,
+				457A204B20901C2B00EF623C /* YWReachability.m in Sources */,
+				457A202C20901A2300EF623C /* TKHomeNew_serviceViewCell.m in Sources */,
+				457A205D20901F6F00EF623C /* HHControl.m in Sources */,
+				457A204D20901C2B00EF623C /* YWMediaPlayerView.m in Sources */,
+				457A2028209019E800EF623C /* VideoDetailViewController.m in Sources */,
+				457A204C20901C2B00EF623C /* YWMediaControl.m in Sources */,
+				457A2024209019AB00EF623C /* YXHomeAdvertisementModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A20002090190300EF623C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A20092090190300EF623C /* KTVideoMonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A200B2090190300EF623C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A20142090190300EF623C /* KTVideoMonitorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		457A20062090190300EF623C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457A1FEB2090190300EF623C /* KTVideoMonitor */;
+			targetProxy = 457A20052090190300EF623C /* PBXContainerItemProxy */;
+		};
+		457A20112090190300EF623C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457A1FEB2090190300EF623C /* KTVideoMonitor */;
+			targetProxy = 457A20102090190300EF623C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		457A1FF52090190300EF623C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457A1FF62090190300EF623C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		457A1FFA2090190300EF623C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457A1FFB2090190300EF623C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		457A20162090190300EF623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		457A20172090190300EF623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		457A20192090190300EF623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD50F134FAC4EA1E401CDA58 /* Pods-KTVideoMonitor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUWYVL564K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KTVideoMonitor",
+				);
+				INFOPLIST_FILE = KTVideoMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kt.KTVideoMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		457A201A2090190300EF623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D15170E9181E31FBD1A62A4 /* Pods-KTVideoMonitor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUWYVL564K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KTVideoMonitor",
+				);
+				INFOPLIST_FILE = KTVideoMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kt.KTVideoMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		457A201C2090190300EF623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUWYVL564K;
+				INFOPLIST_FILE = KTVideoMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kt.KTVideoMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTVideoMonitor.app/KTVideoMonitor";
+			};
+			name = Debug;
+		};
+		457A201D2090190300EF623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUWYVL564K;
+				INFOPLIST_FILE = KTVideoMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kt.KTVideoMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTVideoMonitor.app/KTVideoMonitor";
+			};
+			name = Release;
+		};
+		457A201F2090190300EF623C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUWYVL564K;
+				INFOPLIST_FILE = KTVideoMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kt.KTVideoMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KTVideoMonitor;
+			};
+			name = Debug;
+		};
+		457A20202090190300EF623C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUWYVL564K;
+				INFOPLIST_FILE = KTVideoMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kt.KTVideoMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KTVideoMonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		457A1FE72090190300EF623C /* Build configuration list for PBXProject "KTVideoMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457A20162090190300EF623C /* Debug */,
+				457A20172090190300EF623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457A20182090190300EF623C /* Build configuration list for PBXNativeTarget "KTVideoMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457A20192090190300EF623C /* Debug */,
+				457A201A2090190300EF623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457A201B2090190300EF623C /* Build configuration list for PBXNativeTarget "KTVideoMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457A201C2090190300EF623C /* Debug */,
+				457A201D2090190300EF623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457A201E2090190300EF623C /* Build configuration list for PBXNativeTarget "KTVideoMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457A201F2090190300EF623C /* Debug */,
+				457A20202090190300EF623C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 457A1FE42090190300EF623C /* Project object */;
+}
