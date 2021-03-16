@@ -64,7 +64,7 @@ self.isLiveVideo = YES;
 // 测试链接 http、rtmp、m3u8
 // NSString *testUrl = @"http://flv2.bn.netease.com/videolib3/1604/28/fVobI0704/SD/fVobI0704-mobile.mp4";
 // NSString *testUrl = @"rtmp://ns8.indexforce.com/home/mystream";
-NSString *testUrl = @"http://dlhls.cdn.zhanqi.tv/zqlive/49427_jmACJ.m3u8";
+NSString *testUrl = @"http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8";
 [self showPlayerViewWithUrl:testUrl Title:@"视频的标题"];
 // 自动播放
 [self autoPlay];
