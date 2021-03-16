@@ -40,6 +40,7 @@
     UINavigationController * nvc = [[UINavigationController alloc]initWithRootViewController:bananerInfoVC];
     bananerInfoVC.vedioUrl = model.advertisementLink;
     bananerInfoVC.titleName = model.advertisementNm;
+    nvc.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:nvc animated:NO completion:nil];
     
 }
