@@ -80,8 +80,17 @@
 
 #pragma mark --------------- 懒加载 quickEntryArr4 -----------------
 -(NSMutableArray *)quickEntryArr5{
-    NSArray * titleArr = @[@"杭州复兴大桥",@"杭州西湖断桥",@"张家界宝峰湖",@"泰山天街",@"黑龙江雪乡",@"四川五彩池",@"加拿大街景",@"东方明珠",@"广东汕头",@"意大利郊区"];
-    NSArray * urlArr = @[@"rtmp://hzrtmp01.ys7.com:1935/livestream/472637161_1_1_1_0",@"rtmp://hzrtmp01.ys7.com:1935/livestream/598370938_1_1_1_0",@"rtmp://hzrtmp02.ys7.com:1935/livestream/591962350_1_1_1_0",@"rtmp://hzrtmp01.ys7.com:1935/livestream/721874601_1_1_1_0",@"rtmp://hzrtmp02.ys7.com:1935/livestream/535277512_1_1_1_0",@"rtmp://hzrtmp01.ys7.com:1935/livestream/473224256_1_1_1_0",@"rtmp://hzrtmp01.ys7.com:1935/livestream/154360156_1_2_1_0",@"rtmp://hzrtmp03.ys7.com:1935/livestream/523619239_2_1_1_0",@"rtmp://hzrtmp01.ys7.com:1935/livestream/581330670_1_2_1_0",@"rtmp://hzrtmp03.ys7.com:1935/livestream/142279542_1_1_1_0"];
+       NSArray * titleArr = @[@"美国卫视1直播",@"美国卫视2直播",@"韩国卫视直播",@"湖南卫视直播",@"湖南卫视直播",@"湖南卫视直播",@"湖南卫视直播",@"湖南卫视直播",@"湖南卫视直播",@"湖南卫视直播"];
+    NSArray * urlArr = @[@"rtmp://ns8.indexforce.com/home/mystream"
+                         ,@"rtmp://media3.scctv.net/live/scctv_800"
+                         ,@"rtmp://mobliestream.c3tv.com:554/live/goodtv.sdp"
+                         ,@"rtmp://58.200.131.2:1935/livetv/hunantv"
+                         ,@"rtmp://58.200.131.2:1935/livetv/hunantv"
+                         ,@"rtmp://58.200.131.2:1935/livetv/hunantv"
+                         ,@"rtmp://58.200.131.2:1935/livetv/hunantv"
+                         ,@"rtmp://58.200.131.2:1935/livetv/hunantv"
+                         ,@"rtmp://58.200.131.2:1935/livetv/hunantv"
+                         ,@"rtmp://58.200.131.2:1935/livetv/hunantv"];
     if (!_quickEntryArr5 ) {
         _quickEntryArr5 = [[NSMutableArray alloc]init];
         
