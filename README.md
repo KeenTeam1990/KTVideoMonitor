@@ -26,7 +26,7 @@ pod 'YWVideoPlayer', '~> 1.0.3'
 @end
 ```
 
-**3、在 `AppDelegate.m` 文件中 加入横屏方法（无需调用）**
+**3、在 `AppDelegate.m` 文件中 加入横屏方法（无需调用）*
 
 ```
 - (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
