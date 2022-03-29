@@ -87,12 +87,10 @@ NSString *testUrl = @"http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8";
 
 
 
-
 # 竖屏界面
 
 
 ![image](https://github.com/KeenTeam1990/KTVideoMonitor/blob/master/introductionimages/IMG_0397.PNG)
-
 
 
 
